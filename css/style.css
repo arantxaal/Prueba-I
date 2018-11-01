@@ -1,0 +1,215 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body{
+	font-family: 'Source', sans-serif;
+	font-size: 14px;
+	color: #666;
+}
+
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+.nav-link{
+	color: #E7DFDF;
+}
+
+#sec-hero{
+	background-image: url( ../img/header-background.jpg);
+	background-repeat: round;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height:  80vh;
+	text-align: center;
+	color: #fff;
+	padding: 12% 0;
+}
+
+#sec-hero h3{
+	font-size: 50px;
+	font-weight: 400;
+	letter-spacing: 5px;
+	text-align: center;
+
+}
+
+#sec-hero .btn{
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 10px 40px;
+	border-radius: 80px;
+	letter-spacing: 2px;
+	color: #000;
+	background-color: #298aff;
+}
+
+.btn-transparent {
+	background-color:transparent !important;
+	border: 1px solid #fff;
+	padding: 10px 40px;
+	border-radius: 80px;
+	letter-spacing: 2px;
+	color: #000;
+	}
+
+#sec-hero .btn-transparent:hover { 
+	background-color:#23A3CA !important; 
+	} 
+
+#sec-hero .btn:hover{
+background-color: #fff;
+	color: #333;
+}
+
+.section{
+	padding: 10% 0;
+}
+
+#sec-marcas{
+	background-color: #f2f3f5;
+	padding: 5%;
+}
+
+#sec-features h2,h6{
+	text-align: center;
+	color: #333333;
+}
+
+#sec-features h2{
+	font-size: 45px;
+}
+
+#sec-features .btn-light{
+	margin-top: 5%;
+	object-position: center;
+}
+
+#sec-about{
+	background-color:#f2f3f5; 
+}
+#sec-about .section{
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.titulo{
+	color: #111;
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+#sec-about h3 { 
+	font-size: 15px;
+	}
+	
+.bg-about{
+	background-image: url( ../img/description-image-right.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#sec-work h2{
+	text-align: center;
+}
+#sec-work ul{
+	padding-bottom: 80px;
+	word-spacing: 25px;
+}
+
+.fa-thumbs-up { 
+	color: #236B8E; 
+	}
+
+#sec-about .btn-transparent {
+	background-color:transparent !important;
+	border: 1px solid #259FAF;
+	padding: 10px 40px;
+	border-radius: 80px;
+	letter-spacing: 2px;
+	color: #317E9C;
+	}
+
+#sec-about .btn-transparent:hover { 
+	background-color:#000 !important; 
+	} 
+
+span {
+	color: #3E88AA; 
+	}
+
+#sec-customers h2{
+	text-align: center;
+	color: #333;
+	font-size: 45px;
+}
+
+#sec-customers{
+	background-color: #f2f3f5;
+	align-content: center;
+}
+
+#sec-create h6{
+	text-align: left;
+	color: #298aff;
+}
+
+
+
+#sec-faq h3{
+	color: #666;
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+
+#sec-faq .card-header{
+	text-transform: uppercase;
+}
+
+#sec-faq .item-progress{
+	margin-bottom: 15px;
+}
+
+#sec-faq h4{
+	font-size: 12px;
+	
+}
+
+sec-faq .progress{
+	border-radius: 0;
+	height: 10px;
+}
+
+sec-faq .progress-bar{
+	background-color: #111;
+}
+
+#sec-faq{
+	border-topic:1px solid #ddd;
+	background-color: #f2f3f5;
+}
+
+#sec-faq h2{
+	padding-top:15%;
+}
+
+footer{
+	background-color: #092B6F;
+	padding: 10px;
+	color: #fff;
+}
+
+footer h6{
+	color: #fff;
+}
+
+
